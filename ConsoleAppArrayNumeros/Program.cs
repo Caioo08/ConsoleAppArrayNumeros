@@ -10,8 +10,8 @@ namespace ConsoleAppArrayNumeros
     {
         static void Main(string[] args)
         {
-            int cont_mn = 999999999;
-            int cont_ma = 0;
+            int cont_mn = int.MaxValue;
+            int cont_ma = int.MinValue;
 
             Console.WriteLine("Insira a quantidade de números");
             int qtd = int.Parse(Console.ReadLine());
